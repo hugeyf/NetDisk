@@ -1,0 +1,29 @@
+system:
+  addr: ":8080"
+dbConf:
+  host: "127.0.0.1"
+  username: "root"
+  port: 3306
+  databaseName : "fileserver"
+  dbPwd: "123456"
+  maxIdleConns : 50
+  maxOpenConns : 100
+rdbConf:
+  host: "127.0.0.1"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
+ossConf:
+  bucket: ""
+  endpoint: ""
+  accessKeyID: ""
+  accessKeySecret: ""
+rabbitConf:
+  asyncTransferEnable: true
+  rabbitURL: ""
+  transExchangeName: ""
+  transOSSQueueName: ""
+  transOSSErrQueueName: ""
+  transOSSRoutingKey: ""
+
